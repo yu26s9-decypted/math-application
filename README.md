@@ -1,30 +1,28 @@
 # Math Application
 
-A Java application that performs math operations and demonstrates working with objects and methods.
+A Java program that uses the built-in `Math` class to perform calculations and compare values across different scenarios.
 
 ## About This Project
 
-Built at **Year Up United — Learn to Code Academy (LTCA)** as a Java exercise combining math logic with early object-oriented concepts. This project introduced the idea of separating data (the `Employee` class) from application logic.
+Built at **Year Up United — Learn to Code Academy (LTCA)** as an early exercise exploring Java's `Math` library and basic class design. The program uses hardcoded values to demonstrate several common math operations and introduces a simple `Employee` class to practice modeling real-world data.
 
 ## What I Learned
 
-- Creating and using Java classes to model real-world entities (`Employee`)
-- Writing static methods to perform calculations
-- Using `Scanner` for user interaction
-- Practicing method decomposition — breaking logic into smaller, focused functions
-- Understanding how Java organizes code across multiple class files
+- Using Java's built-in `Math` class methods: `Math.max()`, `Math.PI`, `Math.pow()`, `Math.sqrt()`
+- Creating a simple class (`Employee`) with fields for `id`, `name`, and `salary`
+- Comparing object fields directly to determine the highest-paid employee
+- Formatting numeric output with `String.format()` and `%,d` / `%.2f` specifiers
+- Understanding that not all Java classes need getters/setters — simple data holders can use direct field access
+
+## What the Program Does
+
+- Compares salaries of two hardcoded `Employee` objects (`Bob` and `Gary`) and prints the highest-paid one
+- Compares two vehicle prices and prints the more expensive one
+- Calculates the **area of a circle** given a radius using `Math.PI * r²`
+- Calculates the **square root** of a number using `Math.sqrt()`
 
 ## Tech Stack
 
 - **Java**
 - **Maven**
 - **IntelliJ IDEA**
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
-| Classes | Modeling entities like `Employee` with fields and behavior |
-| Static methods | Reusable calculation logic callable without an instance |
-| `Scanner` | Reading user input from the console |
-| Method decomposition | Splitting logic into small, single-purpose methods |
